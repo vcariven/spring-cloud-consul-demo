@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+  cloud:
+    consul:
+      config:
+        enabled: false
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
