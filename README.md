@@ -1,5 +1,7 @@
 # spring-cloud-consul-demo
 
+> To reproduce : https://github.com/spring-cloud/spring-cloud-consul/issues/213 
+
 * Get a local running consul agent (on default port `8500`)
 * Get a local running spring boot configserver (on default port `8888`), and registering on consul
 ```
